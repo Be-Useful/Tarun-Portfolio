@@ -1,0 +1,35 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.gradient-text {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top, #3b82f6, #06b6d4); /* Tailwind equivalent */
+  color: transparent;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.typing {
+  animation: typing-text steps(40) 1s forwards, blink ease .7s infinite;
+}
+
+@keyframes typing-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: max-content; /* Adjust for full width */
+  }
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white; /* Cursor blink effect */
+  }
+}
