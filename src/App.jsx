@@ -295,7 +295,7 @@ function App() {
             <div class="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
               <h3 class="absolute left-0 text-lg font-semibold">2023</h3>
               <p>
-               Dived into web development, completed online courses, and built several projects, which can be explored by clicking projects.              </p>
+               Dived into web development, completed online courses, and built several projects, which can be explored by clicking projects in Navbar.              </p>
             </div>
             
             <div class="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
