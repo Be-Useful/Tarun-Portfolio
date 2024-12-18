@@ -323,7 +323,7 @@ function App() {
     <div>
       <ul class="flex justify-center sm:justify-end gap-6">
         <li>
-          <a href="#" class="transition-transform transform hover:scale-110">
+          <a href="https://www.linkedin.com/in/tarun-kumar-4bb017215/" class="transition-transform transform hover:scale-110">
             <img src={LinkedIn} alt="LinkedIn Icon" class="h-8 w-8 hover:text-blue-500"/>
           </a>
         </li>
@@ -333,12 +333,12 @@ function App() {
           </a>
         </li>
         <li>
-          <a href="#" class="transition-transform transform hover:scale-110">
+          <a href="https://github.com/Be-Useful" class="transition-transform transform hover:scale-110">
             <img src={Github} alt="Github Icon" class="h-8 w-8 hover:text-gray-300"/>
           </a>
         </li>
         <li>
-          <a href="#" class="transition-transform transform hover:scale-110">
+          <a href="https://www.kaggle.com/work" class="transition-transform transform hover:scale-110">
             <img src={Kaggle} alt="Kaggle Icon" class="h-8 w-8 hover:text-orange-500"/>
           </a>
         </li>
