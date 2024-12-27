@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import './App.css'
-import profpic from './assets/profpic.jpg'
 import profile from './assets/profilepic.png';
 import nprofile from './assets/nprofile.png';
 import profilebg from './assets/profilebg.png';
 import project1 from './assets/project1.png';
 import project2 from './assets/project2.png';
 import project3 from './assets/project3.png';
+import project4 from './assets/project4.png';
 import project21 from './assets/project21.png';
 import LinkedIn from './assets/LinkedIn.png';
 import Github from './assets/github.png';
@@ -83,6 +83,7 @@ function App() {
 
             </div>
             <div>
+            
             <p className="mt-4 text-gray-400">
               Aspiring to leverage strong development skills with a focus on collaboration, effective communication, and unwavering passion for innovation.
             </p>
@@ -102,12 +103,86 @@ function App() {
             </div>
           </div>
         </div>
+
+        <div class="container m-auto px-4">
+            <div class="flex flex-col sm:flex-row gap-4 mt-6 justify-center items-center">
+              <a
+                href="https://github.com/Be-Useful" // Replace with your LeetCode profile link
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm py-3 px-6 bg-gradient-to-t from-gray-700 to-gray-900 rounded-full hover:from-gray-500 hover:to-gray-700 inline-block text-center"
+              >
+                Github Profile
+              </a>
+              <a
+                href="https://leetcode.com/u/Mofcoding030/" // Replace with your Codeforces profile link
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-sm py-3 px-6 bg-gradient-to-t from-gray-700 to-gray-900 rounded-full hover:from-gray-500 hover:to-gray-700 inline-block text-center"
+              >
+                Leetcode Profile
+              </a>
+            </div>
+        </div>
+        <div class="mt-12"></div> {/* Add spacing between sections */}
         </section>
         {/*projects section */}
         <section id="projects">
           <div class="container m-auto px-4 sm:py-12">
             <h2 class="text-2xl font-semibold">Projects</h2>
+            <div class="flex flex-col sm:flex-row gap-10 mt-11">
+              <div class="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={project4} className="w-full h-auto" />
+                <h3 class="text-2xl font-semibold mt-8">Project Tank</h3>
+                <p class="text-gray-400 text-sm mt-2">
+                Dynamic platform built with Next.js, TypeScript, and modern web technologies, empowering users to showcase their projects for enhanced visibility and fostering collaboration with recruiters and fellow creators.                </p>
+                <div class="flex mt-12 gap-2">
+                  <a
+                    href="https://project-tank.vercel.app/" // Replace with your live preview link
+                    target="_blank" // Opens the link in a new tab
+                    rel="noopener noreferrer"
+                    class="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 inline-block text-center"
+                  >
+                    Live preview
+                  </a>
+                  <a
+                    href="https://github.com/Be-Useful/project_tank" // Replace with your GitHub project link
+                    target="_blank" // Opens the link in a new tab
+                    rel="noopener noreferrer"
+                    class="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500 inline-block text-center"
+                  >
+                    Checkout GitHub
+                  </a>
+                </div>
+              </div>
 
+              <div class="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={project3} className="w-full h-auto" />
+                <h3 class="text-2xl font-semibold mt-8">Move Well</h3>
+                <p class="text-gray-400 text-sm mt-2">
+                Fitness web application using React, Material-UI, and Rapid API, featuring search and
+                filter options to explore exercises by body parts, along with detailed descriptions and YouTube video tutorials.
+                </p>
+                <div class="flex gap-2 mt-12">
+                  <a
+                    href="https://magical-creponne-c3d666.netlify.app/" // Replace with your live preview link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 inline-block text-center"
+                  >
+                    Live preview
+                  </a>
+                  <a
+                    href="https://github.com/Be-Useful/move_well" // Replace with your GitHub project link
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500 inline-block text-center"
+                  >
+                    Checkout GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="flex flex-col sm:flex-row gap-10 mt-11">
               <div class="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={project21} className="w-full h-auto" />
@@ -161,6 +236,7 @@ function App() {
                 </div>
               </div>
             </div>
+           
           </div>
         </section>
 
@@ -202,7 +278,14 @@ function App() {
                               <h2 class="font-semibold">.Net Framework, C#, MS SQL Server</h2>
                               <p class="text-gray-500">Intermediate</p>
                           </div>
-                          <span class="w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md"></span>
+                          <span class="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md"></span>
+                      </div>
+                      <div class="mt-8">
+                          <div class="flex justify-between items-center">
+                              <h2 class="font-semibold">Next.js, TypeScript, Sanity</h2>
+                              <p class="text-gray-500">Beginner</p>
+                          </div>
+                          <span class="w-[60%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md"></span>
                       </div>
                       <div class="mt-8">
                           <div class="flex justify-between items-center">
@@ -239,7 +322,7 @@ function App() {
                 </div>
                 <div>
                   <p class="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                    MATLAB
+                    Material UI
                   </p>
                 </div>
                 <div>
@@ -315,37 +398,37 @@ function App() {
         </section>
       </main>
 
-<footer class=" text-white py-12 mt-16">
-  <div class="container m-auto flex justify-between items-center px-4">
-    <div class="text-center sm:text-left">
-      <p class="text-sm text-gray-400">Copyright © 2024 Tarun</p>
-    </div>
-    <div>
-      <ul class="flex justify-center sm:justify-end gap-6">
-        <li>
-          <a href="https://www.linkedin.com/in/tarun-kumar-4bb017215/" class="transition-transform transform hover:scale-110">
-            <img src={LinkedIn} alt="LinkedIn Icon" class="h-8 w-8 hover:text-blue-500"/>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="transition-transform transform hover:scale-110">
-            <img src={Twitter} alt="Twitter Icon" class="h-8 w-8 hover:text-blue-400"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/Be-Useful" class="transition-transform transform hover:scale-110">
-            <img src={Github} alt="Github Icon" class="h-8 w-8 hover:text-gray-300"/>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.kaggle.com/work" class="transition-transform transform hover:scale-110">
-            <img src={Kaggle} alt="Kaggle Icon" class="h-8 w-8 hover:text-orange-500"/>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</footer>
+      <footer class="text-white py-8 mt-16 bg-black">
+        <div class="container m-auto flex flex-col sm:flex-row justify-between items-center px-4">
+          <div class="text-center sm:text-left mb-4 sm:mb-0">
+            <p class="text-sm text-gray-400">Copyright © 2024 Tarun</p>
+          </div>
+          <div>
+            <ul class="flex justify-center sm:justify-end gap-6">
+              <li>
+                <a href="https://www.linkedin.com/in/tarun-kumar-4bb017215/" class="transition-transform transform hover:scale-110">
+                  <img src={LinkedIn} alt="LinkedIn Icon" class="h-8 w-8"/>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="transition-transform transform hover:scale-110">
+                  <img src={Twitter} alt="Twitter Icon" class="h-8 w-8"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Be-Useful" class="transition-transform transform hover:scale-110">
+                  <img src={Github} alt="Github Icon" class="h-8 w-8"/>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.kaggle.com/work" class="transition-transform transform hover:scale-110">
+                  <img src={Kaggle} alt="Kaggle Icon" class="h-8 w-8"/>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
 
 
 
