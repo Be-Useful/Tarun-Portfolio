@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css'
-import profile from './assets/profilepic.png';
+import nprofile from './assets/nprofile.png';
 import project1 from './assets/project1.png';
 import project3 from './assets/project3.png';
 import project4 from './assets/project4.png';
@@ -85,7 +85,7 @@ function App() {
               Aspiring to leverage strong development skills with a focus on collaboration, effective communication, and unwavering passion for innovation.
             </p>
             <a
-              href="https://drive.google.com/file/d/1WUbku2rBzGQ_gGTRw7a5JLim8CvKcDMf/view?usp=sharing" // Replace with your Google Drive file link
+              href='https://drive.google.com/file/d/1KJ3pGuQCFgGpG4a7GZRMvGOcr_a5jOg-/view?usp=sharing'// Replace with your Google Drive file link
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature for opening links in new tabs
               className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 inline-block text-center"
@@ -97,7 +97,7 @@ function App() {
           <div class="relative">
 
             <div class="relative">
-              <img src={profile} class="relative z-10 w-[180px] m-auto sm:w-[300px]" />
+              <img src={nprofile} class="relative z-10 w-[180px] m-auto sm:w-[300px]" />
             </div>
           </div>
         </div>
