@@ -85,7 +85,7 @@ function App() {
               Aspiring to leverage strong development skills with a focus on collaboration, effective communication, and unwavering passion for innovation.
             </p>
             <a
-              href='https://drive.google.com/file/d/1KJ3pGuQCFgGpG4a7GZRMvGOcr_a5jOg-/view?usp=sharing'// Replace with your Google Drive file link
+              href='https://drive.google.com/file/d/1_XxbkXnLFtYcwludHUiCqq64H5pVYMsK/view?usp=sharing'// Replace with your Google Drive file link
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature for opening links in new tabs
               className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 inline-block text-center"
